@@ -1,76 +1,23 @@
-# Login automático no Instagram
+# Instagram Bots
 
-Um script em Python utilizando do módulo Selenium para fazer login automático na rede social [instagram](https://www.instagram.com/).
+Bem-vindo ao projeto Instagram Bots. Este repositório contém uma coleção de bots para automação de tarefas no [instagram](https://www.instagram.com/). Cada bot está organizado em uma pasta separada, com seu próprio `README.md` contendo detalhes específicos sobre o funcionamento e uso desse bot em particular. .
 
+## Lista de Bots Disponíveis
 
-## Começando
+Aqui está uma lista dos bots disponíveis neste projeto, cada um com seu próprio `README.md` na pasta correspondente:
 
-<details>
-  <summary><strong>Certifique-se de ter o Python 3.3 ou posterior e o pip instalados em sua máquina</strong></summary><br />
-  
-* Para ver se tem o `python` e o `pip`
-  ```bash
-  python3 --version && pip --version
-  ```
-* A saída deve ser similar a algo assim:
-  ```
-  Python 3.8.10
-  pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
-  ```
-</details>
+1. **Bot de Login:** Este bot automatiza o processo de login em uma conta do Instagram, permitindo que você acesse a conta de forma programática.
 
-<br>
+## Requisitos
 
-1. Faça um clone do repositório e entre nele
+Certifique-se de atender aos requisitos específicos de cada bot, conforme indicado em seus respectivos `README.md`. Geralmente, você precisará de uma conta do Instagram e possivelmente de algumas bibliotecas ou ferramentas adicionais, dependendo do bot.
 
-```bash
-git clone git@github.com:luandersonalvesdev/instagram-login.git
-cd instagram-login
-```
+## Contribuições
 
-2. Crie um ambiente virtual separado com o `venv`
+Se você deseja contribuir com um novo bot ou aprimorar um existente, sinta-se à vontade para abrir uma solicitação de pull request ou relatar problemas.
 
-```bash
-python3 -m venv nome_do_ambiente
-```
+Aproveite os bots e boa automação!
 
-3. Ative o ambiente virtual:
-
-- Windows:
-    ```bash
-    nome_do_ambiente\Scripts\activate
-    ```
-
-- Linux:
-    ```bash
-    source nome_do_ambiente/bin/activate
-    ```
-
-4. Instale as dependências a partir do `requirements.txt`
-```bash
-pip install -r requirements.txt
-```
-
-5. Crie o arquivo com suas informações de login na rede [instagram](https://www.instagram.com/)
-```bash
-touch user.json
-```
-- Exemplo:
-    ```
-    {
-      "username": "YOUR INSTAGRAM USERNAME",
-      "password": "YOUR INSTAGRAM PASSWORD"
-    }
-    ```
-
-6. Execute o script
-```bash
-python3 instagram_login.py
-```
-
-7. No mesmo terminal que iniciou, pressione "Enter" para encerrar o script.
-
----
 ## Contact
 
 #### [Linkedin](https://linkedin.com/in/luandersonalvesdev)
