@@ -58,10 +58,20 @@ touch user.json
 - Exemplo:
     ```
     {
-      "username": "YOUR INSTAGRAM USERNAME",
-      "password": "YOUR INSTAGRAM PASSWORD"
+      "username": "luaoderson",
+      "password": "senha123",
+      "max_retries": 5,
+      "wait_time": 2
     }
     ```
+    > `username`: seu usuário instagram sem "@".
+
+    > `password`: senha da sua conta.
+
+    > `max_retries`: quantidade de tentativas que o bot fará para capturar o elemento no navegador. Aumente caso queira mais tentativas.
+
+    > `wait_time`: quantos **segundos** o bot irá esperar para uma nova tentativa de capturar o elemento no navegador. Aumente caso seu navegador demore para carregar as paǵinas.
+
 
 6. Execute o script
 ```bash
