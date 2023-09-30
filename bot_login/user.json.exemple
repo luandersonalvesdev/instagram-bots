@@ -1,4 +1,6 @@
 {
   "username": "YOUR INSTAGRAM USERNAME",
-  "password": "YOUR INSTAGRAM PASSWORD"
+  "password": "YOUR INSTAGRAM PASSWORD",
+  "max_retries": 5,
+  "wait_time": 2
 }
